@@ -68,8 +68,8 @@ executable packageset-test
 
     -- Other library packages from which modules are imported.
     build-depends:    base                >=4.9      && <5
+                    , plutarch            ==1.4.0    
                     , plutus-ledger-api
-                    , plutarch
                     , base16-bytestring
                     , bytestring
                     , text
