@@ -1,4 +1,5 @@
 {-# LANGUAGE TypeOperators #-}
+{-# LANGUAGE OverloadedStrings #-}
 
 module Main where
 
@@ -11,8 +12,10 @@ import qualified Data.ByteString.Base16 as Base16
 import qualified Data.ByteString.Short as SBS
 import qualified Data.Text.Encoding as Text
 
+import Plutarch.Extra.AssetClass
+
 alwaysPass :: Term s (PInteger :--> PMintingPolicy)
-alwaysPass = plam $ \_ _ _ -> popaque $ pconstant ()
+alwaysPass = plam $ \_ _ _ -> popaque $ pconstant $ AssetClass "aa" "hello"
 
 main :: IO ()
 main =

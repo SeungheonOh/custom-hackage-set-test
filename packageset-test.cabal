@@ -68,7 +68,11 @@ executable packageset-test
 
     -- Other library packages from which modules are imported.
     build-depends:    base                >=4.9      && <5
-                    , plutarch            ==1.4.0    
+                    , plutarch            ==1.4.0
+                    , liqwid-plutarch-extra
+                    , ply-core
+                    , ply-plutarch
+                    , plutarch-quickcheck
                     , plutus-ledger-api
                     , base16-bytestring
                     , bytestring

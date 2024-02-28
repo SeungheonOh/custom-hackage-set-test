@@ -120,11 +120,11 @@
     "custom-hackage-set": {
       "flake": false,
       "locked": {
-        "lastModified": 1709087023,
-        "narHash": "sha256-TemSFGCXYiycK5CU5qStUnC+E5eFPs3OkVui2CNK/eE=",
+        "lastModified": 1709096092,
+        "narHash": "sha256-gcokJSzw3GXwy0KpmnFoGr5PScHhc1SJ1fOQfxf0w7k=",
         "owner": "seungheonoh",
         "repo": "custom-hackage-set",
-        "rev": "899562d4838b4b6f24d23f839b2db30562e357ec",
+        "rev": "dd7e11fa2a1d7d339b2ac6af2d83822e1496454d",
         "type": "github"
       },
       "original": {
