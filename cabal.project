@@ -10,13 +10,14 @@ repository cardano-haskell-packages
     d4a35cd3121aa00d18544bb0ac01c3e1691d618f462c46129271bccf39f7e8ee    
 
 
-repository custom-hackage-set
-  url: https://seungheonoh.github.io/custom-hackage-set
+repository herbage-packages
+  url: https://seungheonoh.github.io/herbage_test
   secure: True
   root-keys:
-    1c00c2f9a3b19a01617394f06512309e3f834ce82faec24d20ec9f9876c29882
-    c0357e8bc96f9a5185b544515b1ce0d2fdd4f26b85d01998eefe679d751ecacc
-    36747c260bb59274d551bc400e88eb2a07501b70f7857de8aa103d5dd25b9558
+    07c9bce19ab9e39797e5a5a1d77ffd44cc33deb78f6d3cdc073b841ca137a331
+    706826cec9e96436eb82788d1c37ed06f0077647909dd741bcc797633e13b2a5
+    dc5166c1d712b99172d15ccc0bb3d1348ff37ea0110c985b1aafd9813b7090b7
+  key-threshold: 1    
     
 packages:        
   ./.

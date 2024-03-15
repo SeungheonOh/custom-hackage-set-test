@@ -120,17 +120,17 @@
     "custom-hackage-set": {
       "flake": false,
       "locked": {
-        "lastModified": 1709096092,
-        "narHash": "sha256-gcokJSzw3GXwy0KpmnFoGr5PScHhc1SJ1fOQfxf0w7k=",
+        "lastModified": 1710462797,
+        "narHash": "sha256-cXQCeL3rbMrUdahgjuaFuTP2mER3Z2Nc6ay4SHC8Gf8=",
         "owner": "seungheonoh",
-        "repo": "custom-hackage-set",
-        "rev": "dd7e11fa2a1d7d339b2ac6af2d83822e1496454d",
+        "repo": "herbage_test",
+        "rev": "99ff167467279e9cea099f2d85eb27fda2d8cc54",
         "type": "github"
       },
       "original": {
         "owner": "seungheonoh",
-        "ref": "test",
-        "repo": "custom-hackage-set",
+        "ref": "gh-pages",
+        "repo": "herbage_test",
         "type": "github"
       }
     },
