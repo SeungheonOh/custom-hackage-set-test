@@ -23,7 +23,7 @@
     CHaP.url = "github:input-output-hk/cardano-haskell-packages?ref=repo";
     CHaP.flake = false;
 
-    custom-hackage-set.url = "github:seungheonoh/herbage_test?ref=gh-pages";
+    custom-hackage-set.url = "github:seungheonoh/custom-hackage-set?ref=test";
     custom-hackage-set.flake = false;
 
     hercules-ci-effects.url = "github:hercules-ci/hercules-ci-effects";
@@ -51,11 +51,11 @@
             };
           project = pkgs.haskell-nix.cabalProject' {
             src = ./.;
-            compiler-nix-name = "ghc964";
-            index-state = "2024-01-16T11:00:00Z";
+            compiler-nix-name = "ghc966";
+            index-state = "2024-10-09T22:38:57Z";
             inputMap = {
               "https://input-output-hk.github.io/cardano-haskell-packages" = CHaP;
-              "https://seungheonoh.github.io/herbage_test" = custom-hackage-set;
+              "https://seungheonoh.github.io/custom-hackage-set" = custom-hackage-set;
             };
             shell = {
               withHoogle = true;
